@@ -14,7 +14,7 @@
 - ```
   yarn global add babel-cli
   ```
-
+const 이름 = require('모듈이름') 을 import { GraphQLServer } from 'graphql-yoga' 이렇게 사용가능
 #### 스키마
 
 * 사용자에게 보내거나 받을 데이터에 대한 설명
@@ -35,3 +35,13 @@
 2019.11.27
 #### GraphQL 로 REST API 감싸는법
 YTS API 사용 : 접근용이 API키 필요없이 매번 업데이트함
+(https://yts.lt/api#list_movies)
+
+#### node-fetch
+네트워크에 요청 보낼수 있는 것
+    Axios 
+    - 사용하기 편하고 fetch보다 기능이 더 많음
+    - promise기반
+    Fetch
+    - 라이브러리 사용하지 않아도 사용할 수 있음
+    - 주로 react native에서 사용함

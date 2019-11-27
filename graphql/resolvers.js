@@ -6,7 +6,7 @@ const resolvers = {
   },
   Mutation: {
     addMovie : (_,{name, score}) => addMovie(name, score),
-    deleteMovies : (_, {id}) => deleteMovies(id)
+    deleteMovie : (_, {id}) => deleteMovie(id)
   }
 };
 export default resolvers

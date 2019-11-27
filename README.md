@@ -1,6 +1,5 @@
 # movieql
 2019.11.24
-
 #### GraphQL
 
 * Graphql-yoga : 쉽게 설치하는데 중점을 둔 완전한 기능을 갖춘 서버
@@ -23,12 +22,16 @@
 * Schema.graphql에서 데이터가 어떻게 보일지 정의하고 -> resolvers에서 어떻게 해결할지 정의해줌
 
 #### GraphQL Playground
-
+* 127.0.0.1:4000
+* yarn 으로 관리해주기 때문에 서버시작은 yarn start
 * yoga에서 제공 : postman 같은거
 * 항상 서버가 받아야하기 때문에 POST로 보내야함
 * api개발자들에게 유용
 * Commend enter 가 재생
 
 #### Mutation
-
 * 데이터베이스 상태가 변할때 사용되는것
+
+2019.11.27
+#### GraphQL 로 REST API 감싸는법
+YTS API 사용 : 접근용이 API키 필요없이 매번 업데이트함
